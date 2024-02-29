@@ -1,3 +1,6 @@
+html {
+  overflow: hidden;
+}
 body {
   display: flex;
   justify-content: center;
@@ -10,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 100%;
+  overflow: hidden;
 }
 
 .box {
@@ -124,7 +128,7 @@ p {
 @media screen and (max-width: 600px) {
   body {
     background-position-x: 60%;
-    height: calc(100vh - 150px);
+    /* height: calc(100vh - 150px); */
     overflow: hidden;
   }
 
